@@ -129,6 +129,8 @@ const rem = new Baby({
 rem.play()
 console.log(rem.play())
 
+Baby.prototype = Object.create(Person.prototype)
+
 
 /* 
   TASK 4
